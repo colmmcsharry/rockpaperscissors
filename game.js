@@ -2,7 +2,7 @@ function onetothree(){
   var res;
 res = Math.floor(Math.random() * 3) + 1;
 document.getElementById("demo").innerHTML= res;
-if(res === 3){document.getElementById("demo").innerHTML= "computer chose <span class='largefont'> ROCK";
+if(res === 3){document.getElementById("demo").innerHTML= "computer chose <span class='largefont'> ROCK </span>";
 demo.style.color = "blue";
 demo.style.font = "bold 30px Georgia";
 demo.style.height = "140px";
@@ -13,7 +13,7 @@ demo.style.border = "5px dashed orange";
 demo.style.textAlign = "center";
 demo.style.padding= "40px 10px 00px 10px";
 }
-if(res === 2){document.getElementById("demo").innerHTML= "computer chose <span class='largefont'> PAPER" 
+if(res === 2){document.getElementById("demo").innerHTML= "computer chose <span class='largefont'> PAPER </span>"; 
 demo.style.font = "bold 30px Georgia ";
 demo.style.color = "blue"
 demo.style.height = "140px";

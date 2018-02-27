@@ -55,14 +55,6 @@ background-image: url(http://www.clipartlord.com/wp-content/uploads/2016/08/scis
 ;
 background-size: 200px;}
 
-#demo {position:absolute;
-    text-align:center;
-    width: 100px;
-    display: flex;
-    left: 550px;
-    top:400px;
-    
-border: solid black 2px;}
 
 button{background-color: beige;
     font-size: 20px;
@@ -77,12 +69,60 @@ button:active {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
-  .largefont { 
+
+
+
+
+/*
+#demo {position:absolute;
+    text-align:center;
+    width: 100px;
+    display: flex;
+    left: 550px;
+    top:400px;
+    
+border: solid black 2px;
+} */
+
+/*
+I think the issue was that you defined the width in #demo 
+
+Also I would recommend you to look into positions, it's not really desirable to use position:absolute as much as you do
+it makes your code inflexible (not sure if that's a word)
+
+You should maybe also look into css precedence, because you styled your elements in many different ways like inline-styling, id, class and so on
+
+*/
+
+.largefont { 
     color: red; 
     font-family:arial; 
-    position:absolute;
-    font-size: 40px; 
-    text-align:center;
-    top:110px;
-    left: 40px;
-  }
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+}
+
+#demo {
+    position: relative;
+    text-align: center;
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 350px;
+    padding: 20px;
+}
+
+.demo-prompt {
+    border: solid black 5px;
+    color: black;
+}
+
+.demo-result {
+    margin: 0;
+    font: bold 30px Georgia;
+    color: blue;
+    border: 5px dashed orange;
+}
+
+
