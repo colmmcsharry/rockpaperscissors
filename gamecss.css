@@ -1,0 +1,88 @@
+body {
+    background-image: url('handsyopa.jpg');
+    background-size: 900px;
+
+
+   
+}
+
+#rock {
+    position:absolute;
+     top:100px;
+     left:210px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: solid black 2px;
+background-image: url('rocky.jpg');
+ background-size: 300px;
+ background-repeat:no-repeat;
+ background-position:35% 50%;
+}
+
+
+#paper {
+    position:absolute;
+ top:100px;
+ left:500px;
+width: 200px;
+height: 200px;
+align-items: center;
+    display: flex;
+    justify-content: center;
+border: solid black 2px;
+background-color: #cccccc;
+background-image: url(
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3V69i4JxaMa89A9PHIhTSqcVHfUifpovhfz7Mp4bSvhTPUu1U)
+;
+background-size: 200px 200px;}
+
+#scissors {
+    position:absolute;
+
+ top:100px;
+ left:810px;
+width: 200px;
+height: 200px;
+align-items: center;
+    display: flex;
+    justify-content: center;
+border: solid black 2px;
+background-color: #cccccc;
+background-image: url(http://www.clipartlord.com/wp-content/uploads/2016/08/scissors7-232x240.png)
+;
+background-size: 200px;}
+
+#demo {position:absolute;
+    text-align:center;
+    width: 100px;
+    display: flex;
+    left: 550px;
+    top:400px;
+    
+border: solid black 2px;}
+
+button{background-color: beige;
+    font-size: 20px;
+    color: red;
+    border: 2px solid #4CAF50;
+}
+button:hover{background-color: #4CAF50;
+    color: white;
+}
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .largefont { 
+    color: red; 
+    font-family:arial; 
+    position:absolute;
+    font-size: 40px; 
+    text-align:center;
+    top:110px;
+    left: 40px;
+  }
